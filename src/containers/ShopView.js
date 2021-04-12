@@ -69,7 +69,7 @@ class ShopView extends Component {
           vertical
           size="small"
         >
-          <Image src="" />
+          <Image src="https://github.com/doggoyaam/doggoyaam-website/blob/master/assets/doggoyaamLogo.jpg?raw=true" />
         </Segment>
       </div>
     );
