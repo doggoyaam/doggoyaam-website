@@ -6,6 +6,7 @@ import {
   Header,
   Icon,
   Segment,
+  Message
 } from 'semantic-ui-react';
 import { Link, withRouter } from 'react-router-dom';
 
@@ -63,6 +64,9 @@ class HomeView extends Component {
               marginTop: '1em',
             }}
           />
+          <Message compact color="blue">
+            <h3>Coming soon</h3>
+          </Message>
         </Container>
       </Segment>
     );
